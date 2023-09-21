@@ -2,7 +2,6 @@ Let's make a game!
   name:Function Clicker
   by:GlitchedCoder
   desc:Click to increase variable values and function output values
-  created:
   version:1.0.0
 
 Settings
