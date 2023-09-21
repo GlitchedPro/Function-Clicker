@@ -9,7 +9,7 @@ Settings
   building cost increase:110%
   building cost refund:75%
 
-Layout 
+/*Layout 
   *main
     contains:resources, buttons
     *resources
@@ -28,5 +28,5 @@ Layout
         contains:Upgrades
         header:Upgrades
         costs:hide
-        names:hide
+        names:hide*/
          
