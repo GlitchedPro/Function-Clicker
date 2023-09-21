@@ -1,0 +1,32 @@
+Let's make a game!
+name:Function Clicker
+by:GlitchedCoder
+desc:Click to increase variable values and function output values
+created:
+version:1.0.0
+
+Settings
+building cost increase:110%
+building cost refund:75%
+
+Layout 
+   *main
+      contains:resources, buttons
+      *resources
+         contains:Resources
+         class:fullWidth
+         header:This is your output value
+      *buttons
+         contains:Buttons
+   *store
+      contains:buildings, upgrades
+      *buildings
+         contains:BulkDisplay, Buildings
+         header:Variables
+         tooltip origin:left
+      *upgrades
+         contains:Upgrades
+         header:Upgrades
+         costs:hide
+         names:hide
+         
