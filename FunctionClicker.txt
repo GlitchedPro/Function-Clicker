@@ -8,28 +8,24 @@ Settings
   building cost increase:110%
   building cost refund:75%
 
-Layout 
-  *main
-    contains:resources, buttons
-    *resources
-      contains:Resources
-      class:fullWidth
-      header:This is your output value
-    *buttons
-      contains:Buttons
-  *store
-    contains:buildings, upgrades
-      *buildings
-        contains:Buildings
-        header:Variables
-        tooltip origin:left
-      *upgrades
-        contains:Upgrades
-        header:Upgrades
-        costs:hide
-        names:hide
+Layout
+  *resources
+    contains:Resources
+    class:fullWidth
+    header:This is your output value
+  *buttons
+    contains:Buttons
+  *buildings
+    contains:Buildings
+    header:Variables
+    tooltip origin:left
+  *upgrades
+    contains:Upgrades
+    header:Upgrades
+    costs:hide
+    names:hide
          
 Resources
-  *bVariable
-    name:B
+  *VariableB
+    name:b
     desc:Click the function to make the value of b increase
