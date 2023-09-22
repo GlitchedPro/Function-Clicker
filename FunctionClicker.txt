@@ -29,3 +29,10 @@ Layout
         costs:hide
         names:hide
          
+Resources
+  *b
+    name:b
+    desc:Click the function to make the value of <i>b</i> increase
+
+Buildings
+  *
