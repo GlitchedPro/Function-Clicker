@@ -16,17 +16,18 @@ Layout
       header:This is your output value
     *buttons
       contains:Buttons
-  *buildings
-    contains:Buildings
-    header:Variables
-    tooltip origin:left
-  *upgrades
-    contains:Upgrades
-    header:Upgrades
-    costs:hide
-    names:hide
+  *store
+    *buildings
+      contains:Buildings
+      header:Variables
+      tooltip origin:left
+    *upgrades
+      contains:Upgrades
+      header:Upgrades
+      costs:hide
+      names:hide
          
 Resources
   *VariableB
-    name:b
+    name:<i>b</i>
     desc:Click the function to make the value of b increase
