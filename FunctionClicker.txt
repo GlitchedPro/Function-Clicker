@@ -1,14 +1,14 @@
 Let's make a game!
   name:Function Clicker
   by:GlitchedCoder
-  desc:Click to increase variable values and function output values
+  desc:Get the highest number you can
   version:1.0.0
 
 Settings
   building cost increase:110%
   building cost refund:75%
 
-/*Layout 
+Layout 
   *main
     contains:resources, buttons
     *resources
@@ -20,12 +20,12 @@ Settings
   *store
     contains:buildings, upgrades
       *buildings
-        contains:BulkDisplay, Buildings
+        contains:Buildings
         header:Variables
         tooltip origin:left
       *upgrades
         contains:Upgrades
         header:Upgrades
         costs:hide
-        names:hide*/
+        names:hide
          
