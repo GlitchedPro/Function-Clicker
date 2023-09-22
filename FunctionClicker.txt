@@ -30,6 +30,6 @@ Layout
         names:hide
          
 Resources
-  *b
-    name:b
+  *bVariable
+    name:B
     desc:Click the function to make the value of b increase
