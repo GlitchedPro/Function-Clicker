@@ -9,22 +9,22 @@ Settings
   building cost refund:75%
 
 Layout
-  *resources
-    contains:Resources
-    class:fullWidth
-    header:This is your output value
-  *buttons
-    contains:Buttons
-  *store
-    *buildings
-      contains:Buildings
-      header:Variables
-      tooltip origin:left
-    *upgrades
-      contains:Upgrades
-      header:Upgrades
-      costs:hide
-      names:hide
+  *main
+    *resources
+      contains:Resources
+      class:fullWidth
+      header:This is your output value
+    *buttons
+      contains:Buttons
+  *buildings
+    contains:Buildings
+    header:Variables
+    tooltip origin:left
+  *upgrades
+    contains:Upgrades
+    header:Upgrades
+    costs:hide
+    names:hide
          
 Resources
   *VariableB
